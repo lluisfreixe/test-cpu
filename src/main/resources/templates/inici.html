@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>test-cpu</title>
+<meta charset="utf-8">
+</head>
+<body>
+
+	<h1 align="center">
+		V3.0 - Benvinguts a l'aplicacio des del nou laboratori: <span th:text="${appName}"></span>
+	</h1>
+	<br>
+	<h2 align="center">Aplicació de test de CPU per OpenShift.</h2>
+	<h2 align="center">Cada execució executa <span th:text="${capacitat}"></span> de calculs.</h2>
+	<h2 align="center">
+		Data d'execució: <span th:text="${data}"></span>
+		<br>
+		Hora d'execució: <span th:text="${hora}"></span>
+	</h2>
+	
+
+</body>
+</html>
